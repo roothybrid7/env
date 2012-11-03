@@ -1,0 +1,9 @@
+Flask==0.6.1
+IPy
+PIL
+pymongo
+python-memcached
+httplib2
+blinker
+bitarray
+msgpack-python
