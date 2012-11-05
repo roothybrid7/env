@@ -1,4 +1,4 @@
-Flask==0.6.1
+flask==0.6.1
 IPy
 PIL
 pymongo
@@ -7,3 +7,6 @@ httplib2
 blinker
 bitarray
 msgpack-python
+httplib2
+oauth2
+gunicorn
