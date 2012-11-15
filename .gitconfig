@@ -1,0 +1,30 @@
+[user]
+	name = Satoshi Ohki
+	email = roothybrid7@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+[github]
+	user = roothybrid7
+	token = 3b324a648113d2fd767547a198189d57
+[commit]
+  template = /Users/roothy/.gitmessage.txt
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	di = diff
+	tree = log --graph --decorate --oneline
+	treeD = log --graph --pretty=\"format:%C(yellow)%h%C(red)%d%C(reset) %s %C(cyan)%an, %C(cyan bold)%ai%C(reset)\"
+[svn]
+	authorsfile = /Users/roothy/.gitsvnusers.txt
+[core]
+	excludesfile = /Users/roothy/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
